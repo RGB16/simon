@@ -46,4 +46,4 @@ __Getting Started__
 
 -Open index.html in your web browser.
 
--Have fun and challenge your memory with the Simon Game!
+**Have fun and challenge your memory with the Simon Game!**
