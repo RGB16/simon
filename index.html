@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:#856d3d;
+            background-image: url(./images/backgr.jpg);
+            
+          }
+          
+          .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          
+          h1 {
+            font-size: 6.5rem;
+            margin-bottom: 10px;
+            color: #d81717;
+            font-family:serif;
+          }
+          
+          p {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #7b0c0c;
+            font-family: serif;
+          }
+          
+ 
+    </style>
+
+
+  <title>Simon-Game</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Simon Game!</h1>
+    <h1></h1>
+    <p>Let's Play and Fun....</p>
+    <button class="start-button" onclick="startgame()">Start Game</button>
+
+  </div>
+ 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- $(".start-button").click(function(){
+  window.location.href="start.html";
+}); -->
