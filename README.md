@@ -40,10 +40,6 @@ Welcome to the Simon Game – a classic memory and pattern recognition game impl
 
 -jQuery
 
-__Getting Started__
 
--Clone the repository.
-
--Open index.html in your web browser.
 
 **Have fun and challenge your memory with the Simon Game!**
